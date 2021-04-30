@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+div > h1 {
+color: #09b3bf;
+}
+body > div > div > ol > li { margin: 0 5px;
+}
+.category{
+    margin-top: 30px;
+    color: whitesmoke;
+}
+.container{
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.container a{
+    text-decoration: none !important;
+}
+@media (max-width: 480px) { h1 {
+font-size: 18px;
+}
+}
+body {
+background-image: url('img/bg.jpg'); background-repeat: repeat-y;
+}
+div > h1 {
+color: #fff;
+font-family: 'Ubuntu', sans-serif;
+}
+body > div > nav > div > a > h4 { color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+.article-block { background: #fff; color: #383838;
+font-family: 'Ubuntu', sans-serif; box-shadow: 2px 2px 1px #ccc; padding: 10px;
+margin: 10px;
+}
+.article-block a { color: #383838;
+font-family: 'Ubuntu', sans-serif;
+}
+body > div > div > ol > li { margin: 0 5px;
+}
+div.container-image > img { width: 100%;
+}
+p{
+    color: white;
+}
+h4 {
+    color: #ffffff;
+
+}
+.articles{
+     margin: 30px;
+     color: #ffffff;
+	text-decoration: ivory;
+}
+.articles h4{
+	text-decoration: #6a1a21 !important;
+}
+.url_home{
+	font-size: 26px;
+	color: white;
+}
+.header-list .url_home {
+	text-align: right;
+}
+/*фон*/
+/*https://codepen.io/P1N2O/pen/pyBNzX*/
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
